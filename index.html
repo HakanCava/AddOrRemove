@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <header>
+        <h1>Add Or Remove</h1>
+      </header>
+
+      <main>
+        <form action="" id="form">
+          <section class="box1">
+            <div class="box1_1">
+              <h3>New Task</h3>
+            </div>
+
+            <div class="box1_2">
+              <input type="text" id="input" placeholder="Type a new task" />
+              <button  id="btn1"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </section>
+
+          <div class="box2">
+            <div class="box2_1"><h3>Task List</h3></div>
+            <div class="box2_2">
+              <button id="btn2" class="delete-All">Delete All</button>
+            </div>
+          </div>
+        </form>
+        <div>
+
+          <ul id="ul-task" class="li-groups">
+            <li class="li" id="first-li">
+              <h3 id="li-h3">Add Item</h3>
+              <button id="btn-x">
+                <i id="i-x" class="fa-solid fa-xmark"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
