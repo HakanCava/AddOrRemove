@@ -22,7 +22,7 @@ function eventListeners() {
 }
 
 function addNewItem(e) {
-  if (input.value === "") {
+  if (input.value.trim() === "") {
     alert("Please add item");
   }else{ 
   //create li
